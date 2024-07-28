@@ -15,20 +15,14 @@ h1, h2, h3, h4, h5, h5, p {
     line-height: inherit;
 }
 
-p + p {
-    margin-top: 1em;
-}
-
 ul {
     list-style: none;
 }
 
 img, svg, video {
-    display: inline-block;
     vertical-align: top;
     max-width: 100%;
     height: auto;
-    object-fit: cover;
 }
 
 input, textarea, button, select {
@@ -41,7 +35,6 @@ input::-ms-clear {
 }
 
 button, input {
-    display: inline-block;
     box-shadow: none;
     background-color: transparent;
     cursor: pointer;
